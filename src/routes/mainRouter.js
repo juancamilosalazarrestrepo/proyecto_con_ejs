@@ -8,6 +8,8 @@ const mainController = require('../controllers/mainController');
 
 // Acá definimos las rutas
 router.get('/',mainController.index);
+router.get('/detalle/:id',mainController.detalle);
+
 
 
 // Acá exportamos el resultado
